@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+# Python
+__pycache__/
+*.pyc
+# OS
+.DS_Store
+# large / external data (deposit separately; not committed)
+tap_developability/predictions_all/
+tap_developability/**/*.pdb
+tap_developability/**/*.rsa
+gene_analysis/data/raw/TcgaTargetGtex_rsem_gene_tpm*
+gene_analysis/data/raw/TcgaTargetGTEX_phenotype.txt
+gene_analysis/data/raw/gene_subset.tsv
+
+# TAP module: large per-VHH structure inputs (provide locally, do not commit)
+tap_developability/data/VHH_model_str/*/
+tap_developability/data/VHH_AD3/*/

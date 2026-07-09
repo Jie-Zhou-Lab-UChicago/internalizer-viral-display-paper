@@ -1,0 +1,14 @@
+# Minimal conda environment for the gene_analysis module.
+# (Your uploaded base-env export omitted pandas/numpy/scipy/matplotlib/openpyxl,
+#  so this is the clean, module-specific spec. To pin exact versions from your
+#  machine:  python -m pip freeze | grep -Ei "pandas|numpy|scipy|matplotlib|openpyxl")
+name: internalizing-arm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas>=1.5
+  - numpy>=1.23
+  - scipy>=1.9
+  - matplotlib>=3.6
+  - openpyxl>=3.1
