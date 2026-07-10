@@ -11,7 +11,7 @@ This repository contains two independent analysis modules, one per figure panel.
 | Folder | Manuscript figure | What it does | Language |
 |---|---|---|---|
 | [`tap_developability/`](tap_developability/) | Fig. 4 (developability) | TAP-style developability profiling (PSH, PPC, PNC) and aggregation score of phage- vs viral-selected VHHs from predicted structures | R | 
-| [`gene_analysis/`](gene_analysis/) | Fig. 4 / Suppl. (target selectivity) | Tumor selectivity of candidate internalizing arms (CDCP1/MET/EphA2) vs conventional eTPD/uptake receptors across TCGA + GTEx | Python |
+| [`gene_analysis/`](gene_analysis/) |  Suppl. (target selectivity) | Tumor selectivity of candidate internalizing arms (CDCP1/MET/EphA2) vs conventional eTPD/uptake receptors across TCGA + GTEx | Python |
 
 Each module is self-contained with its own README, code, small derived data, and results.
 Large inputs (predicted PDB/RSA structures; the ~8 GB Xena expression matrix) are **not**
